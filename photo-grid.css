@@ -1,5 +1,5 @@
 .lb-album {
-  width: 900px;
+  width: 75%;
   margin: 0 auto;
   font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
 }
@@ -196,7 +196,7 @@
   height: auto;
   bottom: 0px;
   right: 0px;
-  padding: 80px 100px 120px 100px;
+ 
 }
 
 .lb-overlay:target img,

@@ -1,8 +1,59 @@
 a.imagebox {
-  opacity:0;
+  opacity: 1;
   position: absolute;
   transition: all 1s ease-in-out;
 }
+
 a.imagebox:hover {
-  opacity:1;
+  opacity: 1;
+}
+
+.container h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 90vh;
+  line-height: 1em;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  /* the property that creates the splatter effect */
+  -webkit-mask-image: url('http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2013/11/splatter-mask_1-codrops.png');
+  mask-image: url('http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2013/11/splatter-mask_1-codrops.png');
+}
+
+.container {
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.lb-album {
+  zoom: 2;
+}
+
+.container h2 {
+  margin-top: 0em;
+  text-align: center;
+  font-family: 'Raeway', sans-serif;
+  font-weight: 200;
+}
+
+.lb-overlay img {
+  float: left;
+}
+
+.lb-overlay {
+  background-color: black !important;
+}
+
+.lb-overlay div {
+  float: right;
+}
+.box-road,
+.box-pine-drops {
+  zoom: 1.125;
+}
+img {
+ background-image: url('logo.svg')
 }
