@@ -7,40 +7,62 @@ a.imagebox {
 a.imagebox:hover {
   opacity: 1;
 }
-
+@font-face {
+  font-family: 'Semplicita Ombra';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Semplicita Ombra'), url('Semplicita Ombra.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Langdon';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Langdon'), url('Langdon.otf') format('opentype');
+}
+@font-face {
+  font-family: 'IDK';
+  font-style: normal;
+  font-weight: normal;
+  src: local('IDK'), url('IDK.ttf');
+}
+@font-face {
+  font-family: 'Geometos';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Geometos'), url('Geometos.ttf');
+}
 .container h1 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
-  font-size: 90vh;
+  font-family: 'IDK', sans-serif;
+  font-size: 35vw;
   line-height: 1em;
+  letter-spacing: 6vw;
   margin: 0 auto;
   padding: 0;
+  padding-top: 10vh;
   text-align: center;
   color: #fff;
   /* the property that creates the splatter effect */
-  -webkit-mask-image: url('http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2013/11/splatter-mask_1-codrops.png');
+  -webkit-mask-image: url('brush.png');
   mask-image: url('http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2013/11/splatter-mask_1-codrops.png');
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: url('background.png');
 }
 
 .container {
-  background-image: url(background.png);
   background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.lb-album {
-  zoom: 2;
 }
 
 .container h2 {
   margin-top: 0em;
   text-align: center;
-  font-family: 'Raeway', sans-serif;
-  font-weight: 200;
+  font-family: 'Slate', sans-serif;
+  font-weight: 500;
+  font-size: 2.5em;
 }
 
 .lb-overlay img {
-  float: left;
+  
 }
 
 .lb-overlay {
@@ -50,10 +72,26 @@ a.imagebox:hover {
 .lb-overlay div {
   float: right;
 }
-.box-road,
-.box-pine-drops {
-  zoom: 1.125;
+body {
+  background-color: #414141;
+  font-size: 16px;
 }
-img {
- background-image: url('logo.svg')
+.noti {
+  border: 5px solid;
+}
+.hinge {
+  animation-duration: 5s;
+}
+.lb-close {
+  zoom: 2;
+  top: 0px;
+}
+.lb-album {
+  width: 61.8033989%;
+}
+.main-image-overlay {
+  top: 5%;
+  bottom: 5%;
+  height: 90%;
+  max-width: 90%;
 }

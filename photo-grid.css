@@ -1,202 +1,167 @@
 .lb-album {
-  width: 75%;
-  margin: 0 auto;
-  font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	margin: 0 auto;
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
 }
 
 .lb-album li {
-  float: left;
-  margin: 5px;
-  position: relative;
+	float: left;
+	margin: 5px;
+	position: relative;
 }
 
 .lb-album li > a,
 .lb-album li > a img {
-  display: block;
+	display: block;
 }
 
 .lb-album li > a {
-  position: relative;
-  padding: 10px;
+	position: relative;
+	padding: 10px;
 }
 
 .lb-album li > a span {
-  position: absolute;
-  width: calc(100% - 10px);
-  height: calc(100% - 10px);
-  top: 0px;
-  left: 0px;
-  text-align: center;
-  line-height: 150px;
-  color: rgba(27, 54, 81, 0.8);
-  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
-  font-size: 24px;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  /* internet explorer */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
-  /*IE8*/
-  -webkit-transition: opacity 0.3s linear;
-  -moz-transition: opacity 0.3s linear;
-  -o-transition: opacity 0.3s linear;
-  -ms-transition: opacity 0.3s linear;
-  transition: opacity 0.3s linear;
+	position: absolute;
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	line-height: 150px;
+	color: rgba(27, 54, 81, 0.8);
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+	font-size: 24px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	/* internet explorer */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+	/*IE8*/
+	-webkit-transition: opacity 0.3s linear;
+	-moz-transition: opacity 0.3s linear;
+	-o-transition: opacity 0.3s linear;
+	-ms-transition: opacity 0.3s linear;
+	transition: opacity 0.3s linear;
 }
 
 .lb-album li > a:hover span {
-  opacity: 1;
-  filter: alpha(opacity=99);
-  /* internet explorer */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
-  /*IE8*/
+	opacity: 1;
+	filter: alpha(opacity=99);
+	/* internet explorer */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+	/*IE8*/
 }
 
 .lb-overlay {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  left: 0px;
-  top: 0px;
-  padding: 0px;
-  z-index: 99;
-  text-align: center;
-  background: rgb(241, 210, 194);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(241, 210, 194, 1) 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 0.56)), color-stop(100%, rgba(241, 210, 194, 1)));
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(241, 210, 194, 1) 100%);
-  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(241, 210, 194, 1) 100%);
-  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(241, 210, 194, 1) 100%);
-  background: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(241, 210, 194, 1) 100%);
+	display:none;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	z-index: 99;
+	text-align: center;
+	background: #512DA8;
+	background: -webkit-radial-gradient(center, ellipse cover, #512DA8, #311B92 );
 }
 
 .lb-overlay > div {
-  color: rgba(27, 54, 81, 0.8);
-  width: 550px;
-  height: 80px;
-  margin: 40px auto 0px auto;
-  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+	color: rgba(27, 54, 81, 0.8);
+	width: 550px;
+	height: 80px;
+	margin: 40px auto 0px auto;
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
 }
 
-.lb-overlay div h3:first-child,
-.lb-overlay div p:first-child {
-  padding: 0px 20px;
-  width: 200px;
-  height: 60px;
+.lb-overlay div h3,
+.lb-overlay div p {
+	padding: 0px 20px;
+	width: 200px;
+	height: 60px;
 }
 
-.lb-overlay div h3:first-child {
-  font-size: 36px;
-  float: left;
-  text-align: right;
+.lb-overlay div h3 {
+	font-size: 36px;
+	float: left;
+	text-align: right;
 }
 
 .lb-overlay div h3 span,
 .lb-overlay div p {
-  font-size: 16px;
-  font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-  font-style: italic;
+	font-size: 16px;
+	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-style: italic;
 }
 
 .lb-overlay div h3 span {
-  display: block;
-  line-height: 6px;
+	display: block;
+	line-height: 6px;
 	font-family: 'Product Sans', Sans-Serif;
 }
 
 .lb-overlay div p {
-  font-size: 1em;
-  text-align: left;
-  float: left;
-  width: 260px;
+	font-size: 1em;
+	text-align: left;
+	float: left;
+	width: 260px;
 	font-family: 'Raleway', Sans-Serif;
 }
 
 .lb-overlay a.lb-close {
-  background: rgba(27, 54, 81, 0.8);
-  z-index: 1001;
-  color: #fff;
-  position: absolute;
-  text-align: center;
-  overflow: hidden;
-  margin-left: -25px;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  /* internet explorer */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
-  /*IE8*/
-  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+	background: rgba(98, 0, 234, 0.8);
+	z-index: 1001;
+	color: #fff;
+	position: absolute;
+	text-align: center;
+	overflow: hidden;
+	margin-left: -25px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	/* internet explorer */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+	/*IE8*/
+	-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .lb-overlay img {
-  /* height: 100%; For Opera max-height does not seem to work */
-  max-height: 100%;
-  position: relative;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  /* internet explorer */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
-  /*IE8*/
-  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
-  -webkit-transition: opacity 0.5s linear;
-  -moz-transition: opacity 0.5s linear;
-  -o-transition: opacity 0.5s linear;
-  -ms-transition: opacity 0.5s linear;
-  transition: opacity 0.5s linear;
+	/* height: 100%; For Opera max-height does not seem to work */
+	max-height: 100%;
+	position: relative;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	/* internet explorer */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+	/*IE8*/
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	-ms-transition: opacity 0.5s linear;
+	transition: opacity 0.5s linear;
 }
 
-.lb-prev,
-.lb-next {
-  text-indent: -9000px;
-  position: absolute;
-  top: -32px;
-  width: 24px;
-  height: 25px;
-  left: 50%;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
-  /* internet explorer */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=80)";
-  /*IE8*/
-}
 
-.lb-prev:hover,
-.lb-next:hover {
-  opacity: 1;
-  filter: alpha(opacity=99);
-  /* internet explorer */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
-  /*IE8*/
-}
-
-.lb-prev {
-  margin-left: -30px;
-  background: transparent url(../images/arrows.png) no-repeat top left;
-}
-
-.lb-next {
-  margin-left: 6px;
-  background: transparent url(../images/arrows.png) no-repeat top right;
-}
 
 .lb-overlay:target {
-  width: auto;
-  height: auto;
-  bottom: 0px;
-  right: 0px;
- 
+	width: 100%;
+	height: 100%;
+	bottom: 0px;
+	right: 0px;
+	display: inline;
+	z-index: 1000;
+	position: fixed;
 }
 
 .lb-overlay:target img,
 .lb-overlay:target a.lb-close {
-  opacity: 1;
-  filter: alpha(opacity=99);
-  /* internet explorer */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
-  /*IE8*/
+	opacity: 1;
+	filter: alpha(opacity=99);
+	/* internet explorer */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+	/*IE8*/
 }
 
 .lb-close {
@@ -204,6 +169,8 @@
 	margin-left: 0px;
 	right: 0px;
 }
+
+
 /* 
 	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens 
 	http://bricss.net/post/11230266445/css-hack-to-target-opera 
@@ -211,5 +178,5 @@
 
 x:-o-prefocus,
 .lb-overlay img {
-  height: 100%;
+	height: 100%;
 }
