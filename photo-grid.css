@@ -16,16 +16,14 @@
 }
 
 .lb-album li > a {
-  width: 100%;
-  height: 100%;
   position: relative;
   padding: 10px;
 }
 
 .lb-album li > a span {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
   top: 0px;
   left: 0px;
   text-align: center;
@@ -54,9 +52,8 @@
 }
 
 .lb-overlay {
-  width: 0px;
-  height: 0px;
-  position: fixed;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   left: 0px;
   top: 0px;
@@ -73,7 +70,6 @@
 }
 
 .lb-overlay > div {
-  position: relative;
   color: rgba(27, 54, 81, 0.8);
   width: 550px;
   height: 80px;
@@ -81,18 +77,17 @@
   text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
 }
 
-.lb-overlay div h3,
-.lb-overlay div p {
+.lb-overlay div h3:first-child,
+.lb-overlay div p:first-child {
   padding: 0px 20px;
   width: 200px;
   height: 60px;
 }
 
-.lb-overlay div h3 {
+.lb-overlay div h3:first-child {
   font-size: 36px;
   float: left;
   text-align: right;
-  border-right: 1px solid rgba(27, 54, 81, 0.4);
 }
 
 .lb-overlay div h3 span,
@@ -105,13 +100,15 @@
 .lb-overlay div h3 span {
   display: block;
   line-height: 6px;
+	font-family: 'Product Sans', Sans-Serif;
 }
 
 .lb-overlay div p {
-  font-size: 14px;
+  font-size: 1em;
   text-align: left;
   float: left;
   width: 260px;
+	font-family: 'Raleway', Sans-Serif;
 }
 
 .lb-overlay a.lb-close {
@@ -119,13 +116,7 @@
   z-index: 1001;
   color: #fff;
   position: absolute;
-  top: 43px;
-  left: 50%;
-  font-size: 15px;
-  line-height: 26px;
   text-align: center;
-  width: 50px;
-  height: 23px;
   overflow: hidden;
   margin-left: -25px;
   opacity: 0;
@@ -208,7 +199,11 @@
   /*IE8*/
 }
 
-
+.lb-close {
+	left: auto;
+	margin-left: 0px;
+	right: 0px;
+}
 /* 
 	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens 
 	http://bricss.net/post/11230266445/css-hack-to-target-opera 

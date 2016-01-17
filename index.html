@@ -6,88 +6,211 @@
 	<title>Owen Dunnigan</title>
 	<meta name="description" content="Photography By Owen DUnnigan">
 	<meta name="author" content="Owen Dunnigan">
-	<link rel="stylesheet" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="photo-grid.css">
-	<link rel="stylesheet" href="border.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,500,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-</head>
+	<link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="fillpath.css">
+	<link rel="stylesheet" href="animate.min.css">
+	<link rel="stylesheet" href="responsive.css">
+	<link rel="stylesheet" href="materialize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.1/css/animsition.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.1/js/animsition.min.js'></script>
+	<script src="http://instantclick.io/v3.1.0/instantclick.min.js"></script>
+	</head>
 
 <body style="margin: 0em;">
-	<div class="container">
-  <h1>Fotos</h1>
-  <h2>By Owen Dunnigan</h2>
+	<div class="container ">
+		<h1 class=" title">Fotos</h1>
+		<h2>Taken By Owen Dunnigan</h2>
 	</div>
+	<section>
 
-	<ul class="lb-album demo-2">
-		<li class="box-austin box">
-			<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-				<line class="top" x1="0" y1="0" x2="900" y2="0" />
-				<line class="left" x1="0" y1="460" x2="0" y2="-920" />
-				<line class="bottom" x1="300" y1="460" x2="-600" y2="460" />
-				<line class="right" x1="300" y1="0" x2="300" y2="1380" />
-			</svg>
+		<ul class="lb-album demo-2">
 
-			<a href="#image-1" class="imagebox">
-				<img src="austin-thumb.jpeg" height="440px" width="280px">
-				<span><h3>Pointe</h3></span>
-			</a>
-			<div class="lb-overlay" id="image-1">
-				<img src="austin.jpeg" alt="image01" />
-				<div>
-					<h3><span>/point/</span></h3>
-					<p>Dance performed on the tips of the toes</p>
-					<a href="#image-3" class="lb-prev">Prev</a>
-					<a href="#image-2" class="lb-next">Next</a>
+
+
+			<div class="main-content">
+				<div class="row">
+
+<div class="col s12">
+					<div class="card">
+
+						<div class="card-image waves-effect waves-block waves-light">
+							<a href="#image-1"> <img src="kirby-thumb.jpeg" class='responsive-img'>
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Kirby</span>
+
+						</div>
+						</a>
+						<div class="lb-overlay" id="image-1">
+							<img src="kirby.jpeg" alt="image01" class="main-image-overlay"/>
+							<div class="overlay-content">
+								<h3><span>Kirby</span></h3>
+								<p>Dance performed on the tips of the toes</p>
+								<nav class="nav-fillpath">
+									<a class="prev" href="#image-4">
+										<span class="icon-wrap"></span>
+										<h3>Pine Drops</h3>
+									</a>
+									<a class="next" href="#image-2">
+										<span class="icon-wrap"></span>
+										<h3>Austín</h3>
+									</a>
+								</nav>
+							</div>
+							<a href="#page" class="lb-close"><img src="close.svg" height="24px" width="24px"></a>
+						</div>
+					</div>
+					</div>
+
+
+<div class="col s6">
+					<div class="card">
+
+
+						<a href="#image-2">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img src="austin-thumb.jpeg" class='responsive-img'>
+							</div>
+							<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Austín</span>
+
+							</div>
+						</a>
+						<div class="lb-overlay" id="image-2">
+							<img src="austin.jpeg" alt="image02" class="main-image-overlay"/>
+							<div class="overlay-content">
+								<h3><span>Austín</span></h3>
+								<p>Dance performed on the tips of the toes</p>
+								<nav class="nav-fillpath">
+									<a class="prev" href="#image-1">
+										<span class="icon-wrap"></span>
+										<h3>Kirby</h3>
+									</a>
+									<a class="next" href="#image-3">
+										<span class="icon-wrap"></span>
+										<h3>Winter Road</h3>
+									</a>
+								</nav>
+							</div>
+							<a href="#page" class="lb-close"> <img src="close.svg" height="24px" width="24px"> </a>
+						</div>
+					</div>
+					</div>
+					<div class="col s6">
+					<div class="card">
+
+						<div class="card-image waves-effect waves-block waves-light">
+
+							<a href="#image-3">
+								<img src="road-thumb.jpeg" class='responsive-img'></div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Winter Road</span>
+
+						</div>
+						</a>
+
+						<div class="lb-overlay" id="image-3">
+							<img src="road.jpeg" alt="image03" class="main-image-overlay"/>
+							<div class="overlay-content">
+								<h3><span>/point/</span></h3>
+								<p>Dance performed on the tips of the toes</p>
+								<nav class="nav-fillpath">
+									<a class="prev" href="#image-2">
+										<span class="icon-wrap"></span>
+										<h3>Austn</h3>
+									</a>
+									<a class="next" href="#image-4">
+										<span class="icon-wrap"></span>
+										<h3>Pine Drops</h3>
+									</a>
+								</nav>
+							</div>
+							<a href="#page" class="lb-close"><img src="close.svg" height="24px" width="24px"></a>
+						</div>
+					</div>
+					</div>
+
+<div class="col s6">
+				<div class="card">
+
+					<div class="card-image waves-effect waves-block waves-light">
+						<a href="#image-4">
+							<img src="pine-drops-thumb.jpeg" class='responsive-img'></div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Pine Drops</span>
+
+					</div>
+					</a>
+					<div class="lb-overlay" id="image-4">
+						<img src="pine-drops.jpeg" alt="image04" class="main-image-overlay"/>
+						<div class="overlay-content">
+							<h3><span>/point/</span></h3>
+							<p>Dance performed on the tips of the toes</p>
+							<nav class="nav-fillpath">
+								<a class="prev" href="#image-3">
+									<span class="icon-wrap"></span>
+									<h3>Winter Road</h3>
+								</a>
+								<a class="next" href="#image-5">
+									<span class="icon-wrap"></span>
+									<h3 style="right: 150px;">Pine Icicles</h3>
+								</a>
+							</nav>
+						</div>
+						<a href="#page" class="lb-close"><img src="close.svg" height="24px" width="24px"></a>
+					</div>
 				</div>
-				<a href="#page" class="lb-close"> <img src="close.svg" height="24px" width="24px"> </a>
-			</div>
-		</li>
-		<li class="box box-road">
-			<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-				<line class="top" x1="0" y1="0" x2="900" y2="0" />
-				<line class="left" x1="0" y1="197" x2="0" y2="-396" />
-				<line class="bottom" x1="300" y1="197" x2="-600" y2="197" />
-				<line class="right" x1="300" y1="0" x2="300" y2="594" />
-			</svg>
-			<a href="#image-2" class="imagebox">
-				<img src="road-thumb.jpeg" height="178px" width="280px">
-				<span>Pointe</span>
-			</a>
-			<div class="lb-overlay" id="image-2">
-				<img src="road.jpeg" alt="image02" />
-				<div>
-					<h3><span>/point/</span></h3>
-					<p>Dance performed on the tips of the toes</p>
-					<a href="#image-1" class="lb-prev">Prev</a>
-					<a href="#image-3" class="lb-next">Next</a>
+					</div>
+					<div class="col s6">
+			<div class="card">
+
+				<div class="card-image waves-effect waves-block waves-light">
+					<a href="#image-5">
+						<img src="pine-icicles-thumb.jpeg" class='responsive-img'>
 				</div>
-				<a href="#page" class="lb-close"><img src="close.svg" height="24px" width="24px"></a>
-			</div>
-		</li>
-		<li class="box box-pine-drops">
-			<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-				<line class="top" x1="0" y1="0" x2="900" y2="0" />
-				<line class="left" x1="0" y1="197" x2="0" y2="-396" />
-				<line class="bottom" x1="300" y1="197" x2="-600" y2="197" />
-				<line class="right" x1="300" y1="0" x2="300" y2="594" />
-			</svg>
-			<a href="#image-3" class="imagebox">
-				<img src="pine-drops-thumb.jpeg" height="178px" width="280px">
-				<span>Pointe</span>
-			</a>
-			<div class="lb-overlay" id="image-3">
-				<img src="pine-drops.jpeg" alt="image03" />
-				<div>
-					<h3><span>/point/</span></h3>
-					<p>Dance performed on the tips of the toes</p>
-					<a href="#image-2" class="lb-prev">Prev</a>
-					<a href="#image-1" class="lb-next">Next</a>
+				<div class="card-content">
+					<span class="card-title activator grey-text text-darken-4">Pine Icicles</span>
 				</div>
-				<a href="#page" class="lb-close"><img src="close.svg" height="24px" width="24px"></a>
+				</a>
+				<div class="lb-overlay" id="image-5">
+					<img src="pine-icicles.jpeg" alt="image05" class="main-image-overlay"/>
+					<div class="overlay-content">
+						<h3><span>/point/</span></h3>
+						<p>Dance performed on the tips of the toes</p>
+						<nav class="nav-fillpath">
+							<a class="prev" href="#image-4">
+								<span class="icon-wrap"></span>
+								<h3>Pine Drops</h3>
+							</a>
+							<a class="next" href="#image-1">
+								<span class="icon-wrap"></span>
+								<h3>Kirby</h3>
+							</a>
+						</nav>
+					</div>
+					<a href="#page" class="lb-close"><img src="close.svg" height="24px" width="24px"></a>
+				</div>
 			</div>
-		</li>
-	</ul>
+			</div>
+			</div>
+			</div>
+		</ul>
+	</section>
+	<script data-no-instant>InstantClick.init();</script>
+	<script>
+		$(function() {
+			$(".container").click(function() {
+				$(".title").toggleClass("animate hinge");
+			});
+		});
+	</script>
 </body>
 
 </html>
