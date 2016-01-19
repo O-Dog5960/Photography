@@ -42,11 +42,12 @@ a.imagebox:hover {
   text-align: center;
   color: #fff;
   /* the property that creates the splatter effect */
-  -webkit-mask-image: url('brush.png');
-  mask-image: url('http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2013/11/splatter-mask_1-codrops.png');
+  -webkit-mask-image: url('optimised.svg');
+  mask-image: url('optimised.svg');
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  background-image: url('background.png');
+  background-image: url('optimised (1).svg');
+	-webkit-mask-size: .45em;
 }
 
 .container {
