@@ -300,8 +300,13 @@
 	</script>
 	<script>
 		$(function() {
-			$(".card").click(function() {
-				$("body").toggleClass("body-overlay");
+			$(".card-image, .card-content").click(function() {
+				$("body").addClass("body-overlay");
+			});
+		});
+		$(function() {
+			$(".lb-close").click(function() {
+				$("body").removeClass("body-overlay");
 			});
 		});
 	</script>
