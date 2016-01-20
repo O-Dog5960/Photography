@@ -98,15 +98,14 @@ body {
   max-height: 90%;
 }
     .blur-up {
-        -webkit-filter: blur(2px);
-        filter: blur(2px);
+        -webkit-filter: blur(1px);
+        filter: blur(1px);
         transition: filter 1000ms, -webkit-filter 1000ms;
     }
 
     .blur-up.lazyloaded {
         -webkit-filter: blur(0);
         filter: blur(0);
-      transition: filter 1000ms, -webkit-filter 1000ms;
     }
 		.lazyload,
 .lazyloading {
