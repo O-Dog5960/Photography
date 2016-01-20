@@ -116,3 +116,6 @@ body {
     opacity: 1;
     transition: opacity 300ms;
 }
+.body-overlay {
+	overflow: hidden;
+}
