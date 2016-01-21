@@ -89,9 +89,6 @@ body {
 	width: 24px;
 	height: 24px;
 }
-.lb-album {
-  width: 61.8033989%;
-}
 .main-image-overlay {
   top: 5%;
   bottom: 5%;
@@ -117,4 +114,7 @@ body {
 }
 .body-overlay {
 	overflow: hidden;
+}
+img {
+  image-orientation: from-image;
 }
