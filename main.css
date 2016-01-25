@@ -118,3 +118,13 @@ body {
 img {
   image-orientation: from-image;
 }
+.white-text {
+	font-size: 1em;
+}
+.grey-text {
+	font-size: 1.5em;
+	font-family: "Raleway";
+}
+.container .row {
+	margin: 0px;
+}
