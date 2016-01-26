@@ -70,9 +70,6 @@ a.imagebox:hover {
   background-color: black !important;
 }
 
-.lb-overlay div {
-  float: right;
-}
 body {
   background-color: #414141;
   font-size: 16px;
@@ -127,4 +124,23 @@ img {
 }
 .container .row {
 	margin: 0px;
+}
+.lb-overlay div h3 {
+	top: 0%;
+	position: fixed;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #f3e5f5;
+	
+}
+.lb-overlay div p {
+	bottom: 0%;
+	position: fixed;
+}
+.lb-overlay div h3 span {
+	font-size: 2rem;
+	line-height: normal;
+}
+.lb-overlay div h3 span, .lb-overlay div p {
+	font-style: normal;
 }

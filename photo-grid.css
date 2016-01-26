@@ -79,12 +79,6 @@
 	height: 60px;
 }
 
-.lb-overlay div h3 {
-	font-size: 36px;
-	float: left;
-	text-align: right;
-}
-
 .lb-overlay div h3 span,
 .lb-overlay div p {
 	font-size: 16px;
