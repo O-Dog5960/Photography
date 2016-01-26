@@ -130,8 +130,12 @@ img {
 	position: fixed;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: #f3e5f5;
-	
+	color: #f3e5f5
+    right: 50%;
+    left: 50%;
+    padding-left: 0px;
+    padding-right: 0px;
+
 }
 .lb-overlay div p {
 	bottom: 0%;
@@ -143,4 +147,10 @@ img {
 }
 .lb-overlay div h3 span, .lb-overlay div p {
 	font-style: normal;
+}
+.nav-fillpath a::before, .nav-fillpath .icon-wrap::before {
+	will-change: transform;
+}
+.nav-fillpath a.next::before, .nav-fillpath a.next .icon-wrap::before {
+	will-change: transform;
 }
