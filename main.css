@@ -154,3 +154,7 @@ img {
 .nav-fillpath a.next::before, .nav-fillpath a.next .icon-wrap::before {
 	will-change: transform;
 }
+.card-title {
+	font-size: 2rem !important;
+	font-weight: 400 !important;
+}
