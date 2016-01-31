@@ -231,3 +231,7 @@ html { -webkit-font-smoothing: antialiased; }
 nav.cl-effect-14 {
 	height: auto;
 }
+.white-text.social {
+	text-align: -webkit-center;
+
+}
