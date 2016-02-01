@@ -40,14 +40,8 @@ a.imagebox:hover {
   padding: 0;
   padding-top: 10vh;
   text-align: center;
-  color: #fff;
-  /* the property that creates the splatter effect */
-  -webkit-mask-image: url('optimised.svg');
-  mask-image: url('optimised.svg');
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-image: url('optimised (1).svg');
-	-webkit-mask-size: .45em;
+  color: #0d47a1;
+	text-shadow: -10px 10px 0px #00e6e6, -20px 20px 0px #01cccc, -30px 30px 0px #00bdbd;
 }
 
 .container {
