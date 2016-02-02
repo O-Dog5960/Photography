@@ -40,8 +40,8 @@ a.imagebox:hover {
   padding: 0;
   padding-top: 10vh;
   text-align: center;
-  color: #000;
-	text-shadow: -10px 10px 0 rgb(0, 220, 200) , -20px 20px 0 rgb(0, 180, 180) , -30px 30px 0 rgb(0, 160, 160) , -40px 40px 0 rgb(0,140,140), -50px 50px 0 rgb(0,120,120), -60px 60px 0 rgb(0,100,100), -70px 70px 0 rgb(0,80,80), -80px 80px 0 rgb(0,60,60), -90px 90px 0 rgb(0,40,40), -100px 100px 0 rgb(0,20,20), -110px 110px 0 rgb(0,0,0);
+  color: #F44336;
+	text-shadow: -10px 10px 0 #FF9800 , -20px 20px 0 #FFC107 , -30px 30px 0 #FFEB3B , -40px 40px 0 #CDDC39 , -50px 50px 0 #8BC34A , -60px 60px 0 #4CAF50 , -70px 70px 0 #009688 , -80px 80px 0 #00BCD4 , -90px 90px 0 #03A9F4 , -100px 100px 0 #3F51B5 , -110px 110px 0 #9C27B0;
 }
 
 .container {
