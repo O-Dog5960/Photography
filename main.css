@@ -1,171 +1,201 @@
 a.imagebox {
-  opacity: 1;
-  position: absolute;
-  transition: all 1s ease-in-out;
+	opacity: 1;
+	position: absolute;
+	transition: all 1s ease-in-out;
 }
 
 a.imagebox:hover {
-  opacity: 1;
+	opacity: 1;
 }
+
 @font-face {
-  font-family: 'Semplicita Ombra';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Semplicita Ombra'), url('Semplicita Ombra.otf') format('opentype');
+	font-family: 'Semplicita Ombra';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Semplicita Ombra'), url('Semplicita Ombra.otf') format('opentype');
 }
+
 @font-face {
-  font-family: 'Langdon';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Langdon'), url('Langdon.otf') format('opentype');
+	font-family: 'Langdon';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Langdon'), url('Langdon.otf') format('opentype');
 }
+
 @font-face {
-  font-family: 'IDK';
-  font-style: normal;
-  font-weight: normal;
-  src: local('IDK'), url('IDK.ttf');
+	font-family: 'IDK';
+	font-style: normal;
+	font-weight: normal;
+	src: local('IDK'), url('IDK.ttf');
 }
+
 @font-face {
-  font-family: 'Geometos';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Geometos'), url('Geometos.ttf');
+	font-family: 'Geometos';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Geometos'), url('Geometos.ttf');
 }
+
 .container h1 {
-  font-family: 'IDK', sans-serif;
-  font-size: 35vw;
-  line-height: 1em;
-  letter-spacing: 6vw;
-  margin: 0 auto;
-  padding: 0;
-  padding-top: 10vh;
-  text-align: center;
-	transition: text-shadow 1s cubic-bezier(0.4, 0, 0, 1.1) , color 1s cubic-bezier(0.4, 0, 0, 1.1);
+	font-family: 'IDK', sans-serif;
+	font-size: 35vw;
+	line-height: 1em;
+	letter-spacing: 6vw;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 10vh;
+	text-align: center;
+	transition: text-shadow 1s cubic-bezier(0.4, 0, 0, 1.1), color 1s cubic-bezier(0.4, 0, 0, 1.1);
 }
+
 .container h1:hover {
 	color: transparent;
-	text-shadow: 0 0 0px #f44336, -10px 10px 0px #FF9800 , -20px 20px 0px #FFC107 , -30px 30px 0px #FFEB3B , -40px 40px 0px #CDDC39 , -50px 50px 0px #8BC34A , -60px 60px 0px #4CAF50 , -70px 70px 0px #009688 , -80px 80px 0px #00BCD4 , -90px 90px 0px #03A9F4 , -100px 100px 0px #3F51B5 , -110px 110px 0px #9C27B0;
+	text-shadow: 0 0 0px #f44336, -10px 10px 0px #FF9800, -20px 20px 0px #FFC107, -30px 30px 0px #FFEB3B, -40px 40px 0px #CDDC39, -50px 50px 0px #8BC34A, -60px 60px 0px #4CAF50, -70px 70px 0px #009688, -80px 80px 0px #00BCD4, -90px 90px 0px #03A9F4, -100px 100px 0px #3F51B5, -110px 110px 0px #9C27B0;
 }
+
 .container {
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 }
 
 .container h2 {
-  margin-top: 0em;
-  text-align: center;
-  font-family: 'Montserrat Subrayada', sans-serif;
-  font-weight: 500;
-  font-size: 2.5em;
+	margin-top: 0em;
+	text-align: center;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-weight: 500;
+	font-size: 2.5em;
 }
 
-.lb-overlay img {
-  
-}
+.lb-overlay img {}
 
 .lb-overlay {
-  background-color: black !important;
+	background-color: black !important;
 }
 
 body {
-  background-color: #414141;
-  font-size: 16px;
+	background-color: #414141;
+	font-size: 16px;
 }
+
 .noti {
-  border: 5px solid;
+	border: 5px solid;
 }
+
 .hinge {
-  animation-duration: 5s;
+	animation-duration: 5s;
 	z-index: 1000001;
 }
+
 .lb-close {
-  zoom: 2;
-  top: 0px;
+	zoom: 2;
+	top: 0px;
 	width: 24px;
 	height: 24px;
 }
-.main-image-overlay {
-  top: 5%;
-  bottom: 5%;
-  max-height: 90%;
-}
-    .blur-up {
-        -webkit-filter: blur(1px);
-        filter: blur(1px);
-        transition: filter 1000ms, -webkit-filter 1000ms;
-    }
 
-    .blur-up.lazyloaded {
-        -webkit-filter: blur(0);
-        filter: blur(0);
-    }
-		.lazyload,
+.main-image-overlay {
+	top: 5%;
+	bottom: 5%;
+	max-height: 90%;
+}
+
+.blur-up {
+	-webkit-filter: blur(1px);
+	filter: blur(1px);
+	transition: filter 1000ms, -webkit-filter 1000ms;
+}
+
+.blur-up.lazyloaded {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+.lazyload,
 .lazyloading {
-    opacity: 0;
+	opacity: 0;
 }
+
 .lazyloaded {
-    opacity: 1;
-    transition: opacity 300ms;
+	opacity: 1;
+	transition: opacity 300ms;
 }
+
 .body-overlay {
 	overflow: hidden;
 }
+
 img {
-  image-orientation: from-image;
+	image-orientation: from-image;
 }
+
 .white-text {
 	font-size: 1em;
 }
+
 .grey-text {
 	font-size: 4.5em;
 	font-family: "Montserrat";
 }
+
 .container .row {
 	margin: 0px;
 }
+
 .lb-overlay div h3 {
 	top: 0%;
 	position: fixed;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	color: #f3e5f5;
-    right: 55%;
-    left: 45%;
-    padding-left: 0px;
-    padding-right: 0px;
-
+	right: 55%;
+	left: 45%;
+	padding-left: 0px;
+	padding-right: 0px;
 }
+
 .lb-overlay div p {
 	bottom: 0%;
 	position: fixed;
 }
+
 .lb-overlay div h3 span {
 	font-size: 3rem;
 	line-height: normal;
 }
-.lb-overlay div h3 span, .lb-overlay div p {
+
+.lb-overlay div h3 span,
+.lb-overlay div p {
 	font-style: normal;
 }
-.nav-fillpath a::before, .nav-fillpath .icon-wrap::before {
+
+.nav-fillpath a::before,
+.nav-fillpath .icon-wrap::before {
 	will-change: transform;
 }
-.nav-fillpath a.next::before, .nav-fillpath a.next .icon-wrap::before {
+
+.nav-fillpath a.next::before,
+.nav-fillpath a.next .icon-wrap::before {
 	will-change: transform;
 }
+
 .card-title {
 	font-size: 2rem !important;
 	font-weight: 400 !important;
 }
+
 .card {
 	box-shadow: 0 0 0 0px;
 }
-html { -webkit-font-smoothing: antialiased; }
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
 
 .cl-effect-14 a {
 	margin: 0 10px;
 	padding: 10px 20px;
 	mix-blend-mode: soft-light;
 	box-shadow: 0;
-  transition: box-shadow 1s;
+	transition: box-shadow 1s;
 }
 
 .cl-effect-14 a::before {
@@ -203,15 +233,17 @@ html { -webkit-font-smoothing: antialiased; }
 .cl-effect-14 a:hover::after {
 	height: 100%;
 	box-shadow: 30px 30px 65px black;
-} 
+}
 
 nav.cl-effect-14 {
 	height: auto;
 }
+
 .white-text.social {
 	text-align: -webkit-center;
 	font-size: 2em;
 }
+
 a.grey-text.text-lighten-3:after {
-	mix-blend-mode:difference;
+	mix-blend-mode: difference;
 }
