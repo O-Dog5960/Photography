@@ -21,12 +21,12 @@
   <link rel="stylesheet" href="responsive.css">
   <link rel="stylesheet" href="materialize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.1/css/animsition.min.css">
-  
-  
+
+
   <link rel="stylesheet" href="mdi.css">
   <link rel="stylesheet" href="colours.css">
-  
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="ico/apple-touch-icon-57x57.png" />
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="ico/apple-touch-icon-57x57.png" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114x114.png" />
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72x72.png" />
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144x144.png" />
@@ -55,7 +55,7 @@
     <h2>Taken By Owen Dunnigan</h2>
   </div>
   <section>
-<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <ul class="lb-album demo-2">
 
 
@@ -117,7 +117,7 @@
                 <img src="Photos/austin-low.jpg" data-src="Photos/austin.jpg" alt="image02" class="main-image-overlay lazyload blur-up" />
                 <div class="overlay-content">
                   <h3><span>Austín</span></h3>
-                 
+
 
                 </div>
                 <nav class="nav-fillpath">
@@ -156,7 +156,7 @@
                 <img src="Photos/road-low.jpg" data-src="Photos/road.jpg" alt="image03" class="main-image-overlay lazyload blur-up" />
                 <div class="overlay-content">
                   <h3><span>Winter Road</span></h3>
-                  
+
 
                 </div>
                 <nav class="nav-fillpath">
@@ -194,7 +194,7 @@
                 <img src="Photos/pine-drops-low.jpg" data-src="Photos/pine-drops.jpg" alt="image04" class="main-image-overlay lazyload blur-up" />
                 <div class="overlay-content">
                   <h3><span>Pine Drops</span></h3>
-             
+
 
                 </div>
                 <nav class="nav-fillpath">
@@ -231,7 +231,7 @@
                 <img src="Photos/pine-icicles-low.jpg" data-src="Photos/pine-icicles.jpg" alt="image05" class="main-image-overlay lazyload blur-up" />
                 <div class="overlay-content">
                   <h3><span>Pine Icicles</span></h3>
-                
+
 
                 </div>
                 <nav class="nav-fillpath">
@@ -269,7 +269,7 @@
                 <img src="Photos/shrimp-alfredo-low.jpg" data-src="Photos/shrimp-alfredo.jpg" alt="image06" class="main-image-overlay lazyload blur-up" />
                 <div class="overlay-content">
                   <h3><span>Shrimp Alfredo</span></h3>
-                  
+
 
                 </div>
                 <nav class="nav-fillpath">
@@ -306,7 +306,7 @@
                 <img src="Photos/waffle-low.jpg" data-src="Photos/waffle.jpg" alt="image07" class="main-image-overlay lazyload blur-up" />
                 <div class="overlay-content">
                   <h3><span>Wafflé</span></h3>
-                
+
 
                 </div>
                 <nav class="nav-fillpath">
@@ -338,25 +338,25 @@
       <div class="row">
         <div class="col s12">
           <h5 class="white-text social">Social's</h5>
-          </div>
-          <ul>
-            <nav class="cl-effect-14">
+        </div>
+        <ul>
+          <nav class="cl-effect-14">
             <div class="col s12 l4">
-              
+
               <a id="insta" class="grey-text text-lighten-3" target="_blank">Instagram</a></div>
             <div class="col s12 l4">
-              
+
               <a id="tumblr" class="grey-text text-lighten-3" target="_blank">Tumblr</a></div>
             <div class="col s12 l4"><a id="twitter" class="grey-text text-lighten-3" target="_blank">Twitter</a></div>
-            </nav>
+          </nav>
         </ul>
-        
+
       </div>
     </div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-<script src="lazysizes.min.js"></script>
+  <script src="lazysizes.min.js"></script>
   <script>
     var element = document.getElementById("image-*");
 
@@ -384,48 +384,43 @@
       });
     });
   </script>
-  
-  <script>
-        function getMobileOperatingSystem() {
-           var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-           if( userAgent.match( /iPad/i ) || userAgent.match( /iPhone/i ) || userAgent.match( /iPod/i ) )
-           {
-              return 'iOS';
-           }
-           else if( userAgent.match( /Android/i ) )
-           {
-              return 'Android';
-           }
-           else
-           {
-              return 'unknown';
-           }
-        }
 
-        function onLoad(){
-           var urlLink1 = "http://www.instagram.com/OwenDunnigan";
-           var urlLink2 = "http://www.twitter.com/OwenDunnigan";
-           var urlLink3 = "http://owendunnigan.tumblr.com";
-           switch(getMobileOperatingSystem()){
-               case 'Android':
-                    urlLink1 = "instagram://user?username=owendunnigan";
-                    urlLink2 = "twitter://user?screen_name=OwenDunnigan";
-                    urlLink3 = "tumblr://x-callback-url/blog?blogName=owendunnigan";
-                    break;
-               case 'iOS':
-                    urlLink1 = "instagram://user?username=owendunnigan";
-                    urlLink2 = "twitter://user?username=owendunnigan";
-                    urlLink3 = "tumblr://x-callback-url/blog?blogName=owendunnigan";
-                    break;
-               default:
-                    break;
-            }
-           document.getElementById('insta').setAttribute('href', urlLink1);
-           document.getElementById('twitter').setAttribute('href', urlLink2);
-           document.getElementById('tumblr').setAttribute('href', urlLink3);
-        }
-        window.onload = onLoad;
-        </script>
+  <script>
+    function getMobileOperatingSystem() {
+      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+      if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPod/i)) {
+        return 'iOS';
+      } else if (userAgent.match(/Android/i)) {
+        return 'Android';
+      } else {
+        return 'unknown';
+      }
+    }
+
+    function onLoad() {
+      var urlLink1 = "http://www.instagram.com/OwenDunnigan";
+      var urlLink2 = "http://www.twitter.com/OwenDunnigan";
+      var urlLink3 = "http://owendunnigan.tumblr.com";
+      switch (getMobileOperatingSystem()) {
+        case 'Android':
+          urlLink1 = "instagram://user?username=owendunnigan";
+          urlLink2 = "twitter://user?screen_name=OwenDunnigan";
+          urlLink3 = "tumblr://x-callback-url/blog?blogName=owendunnigan";
+          break;
+        case 'iOS':
+          urlLink1 = "instagram://user?username=owendunnigan";
+          urlLink2 = "twitter://user?username=owendunnigan";
+          urlLink3 = "tumblr://x-callback-url/blog?blogName=owendunnigan";
+          break;
+        default:
+          break;
+      }
+      document.getElementById('insta').setAttribute('href', urlLink1);
+      document.getElementById('twitter').setAttribute('href', urlLink2);
+      document.getElementById('tumblr').setAttribute('href', urlLink3);
+    }
+    window.onload = onLoad;
+  </script>
 </body>
 
 </html>
