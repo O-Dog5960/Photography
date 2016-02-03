@@ -36,6 +36,13 @@ a.imagebox:hover {
 	src: local('Geometos'), url('Geometos.ttf');
 }
 
+@font-face {
+	font-family: 'Bebas Neue';
+	font-style: normal;
+	font-weight: normal;
+	src: local("Bebas Neue"), url('BebasNeue.otf') format('opentype');
+}
+
 .container h1 {
 	font-family: 'IDK', sans-serif;
 	font-size: 35vw;
@@ -96,8 +103,7 @@ body {
 }
 
 .main-image-overlay {
-	top: 5%;
-	bottom: 5%;
+	bottom: -10%;
 	max-height: 90%;
 }
 
@@ -149,8 +155,6 @@ img {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	color: #f3e5f5;
-	right: 55%;
-	left: 45%;
 	padding-left: 0px;
 	padding-right: 0px;
 }
