@@ -46,8 +46,9 @@ a.imagebox:hover {
 .container h1 {
 	font-family: 'IDK', sans-serif;
 	font-size: 35vw;
-	line-height: 1em;
+	line-height: 100vh;
 	letter-spacing: 6vw;
+	color: #90a4ae;
 	margin: 0 auto;
 	padding: 0;
 	padding-top: 4vh;
@@ -72,6 +73,7 @@ a.imagebox:hover {
 	font-weight: 500;
 	font-size: 2.5em;
 	transition: color 1s;
+	color
 }
 .container h2:hover {
 	color: rebeccapurple
