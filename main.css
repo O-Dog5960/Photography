@@ -40,7 +40,7 @@ a.imagebox:hover {
 	font-family: 'Bebas Neue';
 	font-style: normal;
 	font-weight: normal;
-	src: local("Bebas Neue"), url('BebasNeue.otf') format('opentype');
+	src: local('Bebas Neue'), url('BebasNeue.otf') format('opentype');
 }
 
 .container h1 {
