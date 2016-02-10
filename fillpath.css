@@ -23,7 +23,9 @@ nav a svg {
 	padding: 0;
 }
 
-.color-10 { background: #f3cf3f; }
+.color-10 {
+	background: #f3cf3f;
+}
 
 .nav-fillpath a {
 	width: 100px;
@@ -52,7 +54,8 @@ nav a svg {
 	transition: transform 0.3s;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
-	outline: 1px solid transparent; /* for FF */
+	outline: 1px solid transparent;
+	/* for FF */
 }
 
 .nav-fillpath .icon-wrap::before,
