@@ -263,3 +263,6 @@ a.grey-text.text-lighten-3:after {
 	padding-bottom: 1em;
 	padding-top: 1em;
 }
+.austin-card {
+	max-height: 825px;
+}
