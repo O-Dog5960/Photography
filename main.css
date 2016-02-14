@@ -253,7 +253,8 @@ nav.cl-effect-14 {
 
 .white-text.social {
 	text-align: -webkit-center;
-	font-size: 2em;
+	font-size: 10em;
+	line-height: normal;
 }
 
 a.grey-text.text-lighten-3:after {
@@ -265,4 +266,12 @@ a.grey-text.text-lighten-3:after {
 }
 .austin-card {
 	max-height: 825px;
+}
+h5 {
+	-webkit-margin-before: 1.67rem;
+    -webkit-margin-after: 1.67rem;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	    font-family: 'IDK';
+    font-size: 10em;
 }
