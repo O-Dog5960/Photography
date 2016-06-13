@@ -2086,7 +2086,7 @@ footer.page-footer .footer-copyright {
 .card .card-image img {
   display: block;
   border-radius: 2px 2px 0 0;
-  position: relative;
+  position: absolute;
   left: 0;
   right: 0;
   top: 0;
@@ -5351,20 +5351,4 @@ button.picker__close:focus {
   .picker--time .picker__box {
     margin-bottom: 5em
   }
-}
-
-.main-content {		
-  margin: 0 auto;		
-  max-width: 1280px;		
-  width: 90%		
-}		
-@media only screen and (min-width: 601px) {		
-  .main-content {		
-    width: 85%		
-  }		
-}		
-@media only screen and (min-width: 993px) {		
-  .main-content {		
-    width: 61.8033989%;		
-  }		
 }
