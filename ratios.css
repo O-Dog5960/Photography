@@ -1,4 +1,4 @@
-.waffle-thumb, .norm, .kirby-thumb, .austin-thumb {
+.waffle-thumb, .norm, .kirby-thumb, .austin-thumb .sunset-gradient {
   position: relative; }
 
 .waffle-thumb:after {
@@ -32,7 +32,14 @@
   width: 100%;
   padding-bottom: calc(754 / 500 * 100%); }
 
-.waffle-thumb, .norm, .kirby-thumb, .austin-thumb > * {
+.sunset-gradient:after {
+  content: "";
+  display: block;
+  height: 0;
+  width: 100%;
+  padding-bottom: calc(31 / 75 * 100%); }
+
+.waffle-thumb, .norm, .kirby-thumb, .austin-thumb .sunset-gradient > * {
   position: absolute;
   top: 0;
   left: 0;
