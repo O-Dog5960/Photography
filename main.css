@@ -217,4 +217,10 @@ h5 {
   margin: 0 auto;
   width: calc(50vw + 20px); }
 
+.card-image {
+  -webkit-filter: grayscale(1); }
+
+.card-image:hover {
+  -webkit-filter: grayscale(0); }
+
 /*# sourceMappingURL=main.css.map */
