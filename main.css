@@ -211,7 +211,7 @@ h5 {
   width: 25vw; }
 
 .grid-item--width2 {
-  width: 50vw; }
+  width: calc(50vw + 20px); }
 
 .grid {
   margin: 0 auto;
