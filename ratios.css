@@ -53,6 +53,13 @@
   width: 100%;
   padding-bottom: calc(187 / 250 * 100%); }
 
+.cld-fire:after {
+  content: "";
+  display: block;
+  height: 0;
+  width: 100%;
+  padding-bottom: calc(1335 / 1622 * 100%); }
+
 .waffle-thumb, .norm, .kirby-thumb, .austin-thumb, .sunset-gradient, .hundred, .nexus > * {
   position: absolute;
   top: 0;
