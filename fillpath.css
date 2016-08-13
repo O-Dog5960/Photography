@@ -7,6 +7,9 @@ nav a {
   z-index: 1000;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%); }
+  @media screen and (max-width: 600px) {
+    nav a {
+      top: 90%; } }
   nav a.prev {
     left: 0; }
   nav a.next {

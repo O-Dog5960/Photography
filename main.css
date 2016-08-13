@@ -81,6 +81,10 @@ body {
 .main-image-overlay {
   bottom: -10%;
   max-height: 90%; }
+  @media screen and (max-width: 600px) {
+    .main-image-overlay {
+      bottom: 0%;
+      margin: 50% 0; } }
 
 .blur-up {
   -webkit-filter: blur(1px);

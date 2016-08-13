@@ -1,6 +1,10 @@
+$break-small: 600px
+
 nav a
   position: static
   top: 50%
+  @media screen and (max-width: $break-small)
+    top: 90%
   display: block
   outline: none
   text-align: center
