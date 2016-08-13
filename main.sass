@@ -96,8 +96,9 @@ body
   bottom: -10%
   max-height: 90%
   @media screen and (max-width: $break-small)
-    bottom: 0%
-    margin: 50% 0
+    &:not(.austin)
+      bottom: 0%
+      margin: 50% 0
 
 .blur-up
   -webkit-filter: blur(1px)

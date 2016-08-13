@@ -82,7 +82,7 @@ body {
   bottom: -10%;
   max-height: 90%; }
   @media screen and (max-width: 600px) {
-    .main-image-overlay {
+    .main-image-overlay:not(.austin) {
       bottom: 0%;
       margin: 50% 0; } }
 
