@@ -1,0 +1,140 @@
+nav a
+  position: static
+  top: 50%
+  display: block
+  outline: none
+  text-align: center
+  z-index: 1000
+  -webkit-transform: translateY(-50%)
+  transform: translateY(-50%)
+  &.prev
+    left: 0
+  &.next
+    right: 0
+  svg
+    display: block
+    margin: 0 auto
+    padding: 0
+
+.color-10
+  background: #f3cf3f
+
+.nav-fillpath
+  a
+    width: 100px
+    height: 100px
+    position: absolute
+  .icon-wrap
+    position: static
+    display: block
+    width: 100%
+    height: 100%
+  a
+    &::before, &::after
+      position: absolute
+      left: 50%
+      width: 3px
+      height: 50%
+      background: #566475
+      content: ''
+      -webkit-transition: -webkit-transform 0.3s
+      transition: transform 0.3s
+      -webkit-backface-visibility: hidden
+      backface-visibility: hidden
+      outline: 1px solid transparent
+      
+  .icon-wrap
+    &::before, &::after
+      position: absolute
+      left: 50%
+      width: 3px
+      height: 50%
+      background: #566475
+      content: ''
+      -webkit-transition: -webkit-transform 0.3s
+      transition: transform 0.3s
+      -webkit-backface-visibility: hidden
+      backface-visibility: hidden
+      outline: 1px solid transparent
+      
+    &::before, &::after
+      z-index: 100
+      height: 0
+      background: #fff
+      -webkit-transition: height 0.3s, -webkit-transform 0.3s
+      transition: height 0.3s, transform 0.3s
+  a::before, .icon-wrap::before
+    top: 50%
+    -webkit-transform: translateX(-50%) rotate(-135deg)
+    transform: translateX(-50%) rotate(-135deg)
+    -webkit-transform-origin: 50% 0%
+    transform-origin: 50% 0%
+  a
+    &.next
+      &::before, .icon-wrap::before
+        -webkit-transform: translateX(-50%) rotate(135deg)
+        transform: translateX(-50%) rotate(135deg)
+        -webkit-transform-origin: 50% 0%
+        transform-origin: 50% 0%
+    &::after
+      top: 50%
+      -webkit-transform: translateX(-50%) rotate(-45deg)
+      transform: translateX(-50%) rotate(-45deg)
+      -webkit-transform-origin: 0 0
+      transform-origin: 0 0
+  .icon-wrap::after
+    top: 50%
+    -webkit-transform: translateX(-50%) rotate(-45deg)
+    transform: translateX(-50%) rotate(-45deg)
+    -webkit-transform-origin: 0 0
+    transform-origin: 0 0
+  a.next
+    &::after, .icon-wrap::after
+      -webkit-transform: translateX(-50%) rotate(45deg)
+      transform: translateX(-50%) rotate(45deg)
+      -webkit-transform-origin: 100% 0%
+      transform-origin: 100% 0%
+  h3
+    position: absolute
+    top: 50%
+    margin: 0
+    color: #fff
+    text-transform: uppercase
+    font-weight: 300
+    font-size: 2.5em
+    opacity: 0
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s
+    transition: transform 0.3s, opacity 0.3s
+  a
+    &.prev h3
+      left: 100%
+      -webkit-transform: translateY(-50%) translateX(-50%)
+      transform: translateY(-50%) translateX(-50%)
+    &.next h3
+      right: 100%
+      text-align: inherit
+      -webkit-transform: translateY(-50%) translateX(50%)
+      transform: translateY(-50%) translateX(50%)
+    &:hover
+      .icon-wrap
+        &::before, &::after
+          height: 50%
+      &::before, .icon-wrap::before
+        -webkit-transform: translateX(-50%) rotate(-125deg)
+        transform: translateX(-50%) rotate(-125deg)
+    &.next:hover
+      &::before, .icon-wrap::before
+        -webkit-transform: translateX(-50%) rotate(125deg)
+        transform: translateX(-50%) rotate(125deg)
+    &:hover
+      &::after, .icon-wrap::after
+        -webkit-transform: translateX(-50%) rotate(-55deg)
+        transform: translateX(-50%) rotate(-55deg)
+    &.next:hover
+      &::after, .icon-wrap::after
+        -webkit-transform: translateX(-50%) rotate(55deg)
+        transform: translateX(-50%) rotate(55deg)
+    &:hover h3
+      opacity: 1
+      -webkit-transform: translateY(-50%) translateX(0)
+      transform: translateY(-50%) translateX(0)
