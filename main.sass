@@ -1,3 +1,6 @@
+$break-small: 600px
+
+
 a.imagebox
   opacity: 1
   position: absolute
@@ -224,16 +227,22 @@ h5
 
 .grid-sizer, .grid-item
   width: calc(50% - 10px)
+  @media screen and (max-width: $break-small)
+    width: 100%
 
 .grid-item--width2 
   width: 100%
 
 .grid 
   margin: 0 auto
-  width: calc(50% + 20px)
+  width: 50%
+  @media screen and (max-width: $break-small)
+    width: 100% 
+
 
 .card-image 
   -webkit-filter: grayscale(1)
+
   
 .card-image:hover 
   -webkit-filter: grayscale(0)
