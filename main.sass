@@ -1,4 +1,5 @@
 $break-small: 600px
+$break-tablet: 800px
 
 
 a.imagebox
@@ -238,12 +239,15 @@ h5
   width: 50%
   @media screen and (max-width: $break-small)
     width: 100% 
+  @media screen and (max-width: $break-tablet)
+    width: 80%
 
 
 .card-image 
   -webkit-filter: grayscale(1)
-  @media screen and (max-width: $break-small)
+  @media screen and (max-width: $break-tablet)
     -webkit-filter: grayscale(0)
+
   
 .card-image:hover 
   -webkit-filter: grayscale(0)

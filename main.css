@@ -222,10 +222,13 @@ h5 {
   @media screen and (max-width: 600px) {
     .grid {
       width: 100%; } }
+  @media screen and (max-width: 800px) {
+    .grid {
+      width: 80%; } }
 
 .card-image {
   -webkit-filter: grayscale(1); }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .card-image {
       -webkit-filter: grayscale(0); } }
 
