@@ -226,7 +226,7 @@ h5 {
   @media screen and (max-width: 600px) {
     .grid {
       width: 100%; } }
-  @media screen and (max-width: 800px) {
+  @media screen and (min-width: 600px) {
     .grid {
       width: 80%; } }
 
