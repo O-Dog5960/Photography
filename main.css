@@ -225,6 +225,9 @@ h5 {
 
 .card-image {
   -webkit-filter: grayscale(1); }
+  @media screen and (max-width: 600px) {
+    .card-image {
+      -webkit-filter: grayscale(0); } }
 
 .card-image:hover {
   -webkit-filter: grayscale(0); }

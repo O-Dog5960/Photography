@@ -242,7 +242,8 @@ h5
 
 .card-image 
   -webkit-filter: grayscale(1)
-
+  @media screen and (max-width: $break-small)
+    -webkit-filter: grayscale(0)
   
 .card-image:hover 
   -webkit-filter: grayscale(0)
