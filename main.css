@@ -208,14 +208,14 @@ h5 {
   font-size: 10em; }
 
 .grid-sizer, .grid-item {
-  width: 25vw; }
+  width: calc(50% - 10px); }
 
 .grid-item--width2 {
-  width: calc(50vw + 20px); }
+  width: 100%; }
 
 .grid {
   margin: 0 auto;
-  width: calc(50vw + 20px); }
+  width: calc(50% + 20px); }
 
 .card-image {
   -webkit-filter: grayscale(1); }
