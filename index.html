@@ -579,7 +579,7 @@
 
               <a id="tumblr" class="grey-text text-lighten-3" target="_blank">Tumblr</a></div>
             <div class="col s12 l3"><a id="twitter" class="grey-text text-lighten-3" target="_blank">Twitter</a></div>
-            <div class="col s12 l3"><a id="500px" class="grey-text text-lighten-3" target="_blank">500px</a></div>
+            <!--<div class="col s12 l3"><a id="500px" class="grey-text text-lighten-3" target="_blank">500px</a></div>-->
           </nav>
         </ul>
 
@@ -626,19 +626,19 @@
       var urlLink1 = "http://www.instagram.com/OwenDunnigan";
       var urlLink2 = "http://www.twitter.com/OwenDunnigan";
       var urlLink3 = "http://owendunnigan.tumblr.com";
-      var urlLink4 = "http://500px.com/OwenDunnigan"
+      //var urlLink4 = "http://500px.com/OwenDunnigan"
       switch (getMobileOperatingSystem()) {
         case 'Android':
           urlLink1 = "instagram://user?username=owendunnigan";
           urlLink2 = "twitter://user?screen_name=OwenDunnigan";
           urlLink3 = "tumblr://x-callback-url/blog?blogName=owendunnigan";
-          urlLink4 = "500px://user?username=owendunnigan";
+          //urlLink4 = "500px://user?username=owendunnigan";
           break;
         case 'iOS':
           urlLink1 = "instagram://user?username=owendunnigan";
           urlLink2 = "twitter://user?username=owendunnigan";
           urlLink3 = "tumblr://x-callback-url/blog?blogName=owendunnigan";
-          urlLink4 = "500px://user?username=owendunnigan";
+          //urlLink4 = "500px://user?username=owendunnigan";
           break;
         default:
           break;
@@ -646,7 +646,7 @@
       document.getElementById('insta').setAttribute('href', urlLink1);
       document.getElementById('twitter').setAttribute('href', urlLink2);
       document.getElementById('tumblr').setAttribute('href', urlLink3);
-      document.getElementById('500px').setAttribute('href', urlLink4);
+      //document.getElementById('500px').setAttribute('href', urlLink4);
     }
     window.onload = onLoad;
   </script>
