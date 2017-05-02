@@ -1,6 +1,8 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/ratios\.sass}line{font-family:\000032}}
 .waffle-thumb, .norm, .kirby-thumb, .austin-thumb .sunset-gradient .hundred {
   position: relative; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/ratios\.sass}line{font-family:\000035}}
 .waffle-thumb:after {
   content: "";
   display: block;
@@ -9,6 +11,7 @@
   /* 16:9 = 56.25% = calc(9 / 16 * 100%) */
   padding-bottom: calc(37 / 50 * 100%); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/ratios\.sass}line{font-family:\0000313}}
 .norm:after {
   content: "";
   display: block;
@@ -17,6 +20,7 @@
   /* alfredo tea rofficicles road pineicicles pinedrops  */
   padding-bottom: calc(33 / 50 * 100%); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/ratios\.sass}line{font-family:\0000321}}
 .kirby-thumb:after {
   content: "";
   display: block;
@@ -25,6 +29,7 @@
   /* 16:9 = 56.25% = calc(9 / 16 * 100%) */
   padding-bottom: calc(78 / 125 * 100%); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/ratios\.sass}line{font-family:\0000329}}
 .austin-thumb:after {
   content: "";
   display: block;
@@ -32,6 +37,7 @@
   width: 100%;
   padding-bottom: calc(754 / 500 * 100%); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/ratios\.sass}line{font-family:\0000335}}
 .sunset-gradient:after {
   content: "";
   display: block;
@@ -39,6 +45,7 @@
   width: 100%;
   padding-bottom: calc(31 / 75 * 100%); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/ratios\.sass}line{font-family:\0000341}}
 .hundred:after {
   content: "";
   display: block;
@@ -46,6 +53,7 @@
   width: 100%;
   padding-bottom: calc(198.5 / 300 * 100%); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/ratios\.sass}line{font-family:\0000348}}
 .nexus:after {
   content: "";
   display: block;
@@ -53,6 +61,7 @@
   width: 100%;
   padding-bottom: calc(187 / 250 * 100%); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/ratios\.sass}line{font-family:\0000355}}
 .cld-fire:after {
   content: "";
   display: block;
@@ -60,6 +69,7 @@
   width: 100%;
   padding-bottom: calc(1335 / 1622 * 100%); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/ratios\.sass}line{font-family:\0000362}}
 .widescreen:after {
   content: "";
   display: block;
@@ -67,12 +77,21 @@
   width: 100%;
   padding-bottom: calc(9 / 16 * 100%); }
 
-.waffle-thumb, .norm, .kirby-thumb, .austin-thumb, .sunset-gradient, .hundred, .nexus > * {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/ratios\.sass}line{font-family:\0000369}}
+.waffle-thumb, .norm, .kirby-thumb, .austin-thumb, .sunset-gradient, .hundred, .nexus, .widescreen, .sunset-pano > * {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/ratios\.sass}line{font-family:\0000377}}
+.sunset-pano:after {
+  content: "";
+  display: block;
+  height: 0;
+  width: 100%;
+  padding-bottom: calc(929 / 6584 * 100%); }
 
 /*# sourceMappingURL=ratios.css.map */
