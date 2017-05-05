@@ -1,7 +1,9 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\000035}}
 a.imagebox {
   opacity: 1;
   position: absolute;
   transition: all 1s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\000039}}
   a.imagebox:hover {
     opacity: 1; }
 
@@ -30,8 +32,10 @@ a.imagebox {
   font-style: normal;
   font-weight: normal;
   src: local("Bebas Neue"), url("BebasNeue.otf") format("opentype"); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\0000347}}
 .container {
   background-repeat: no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\0000348}}
   .container h1 {
     font-family: "IDK", sans-serif;
     font-size: 35vw;
@@ -43,10 +47,12 @@ a.imagebox {
     margin-top: 15vh;
     margin-bottom: 15vh;
     text-align: center;
-    transition: text-shadow 1s cubic-bezier(0.175, 0.885, 0.32, 1.275), color 1s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+    transition: text-shadow 1s cubic-bezier(1, 0.67, 0.35, 2.1), color 1s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\0000360}}
     .container h1:hover {
       color: transparent;
       text-shadow: 0 0 0px #f44336, -10px 10px 0px #FF9800, -20px 20px 0px #FFC107, -30px 30px 0px #FFEB3B, -40px 40px 0px #CDDC39, -50px 50px 0px #8BC34A, -60px 60px 0px #4CAF50, -70px 70px 0px #009688, -80px 80px 0px #00BCD4, -90px 90px 0px #03A9F4, -100px 100px 0px #3F51B5, -110px 110px 0px #9C27B0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\0000364}}
   .container h2 {
     margin-top: 0em;
     text-align: center;
@@ -55,68 +61,86 @@ a.imagebox {
     font-size: 2.5em;
     transition: color 1s;
     color: #90a4ae; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\0000372}}
     .container h2:hover {
       color: rebeccapurple; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\0000375}}
 .lb-overlay img {
   background-color: black !important; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\0000378}}
 body {
   background-color: #414141;
   font-size: 16px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\0000382}}
 .noti {
   border: 5px solid; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\0000385}}
 .hinge {
   animation-duration: 5s;
   z-index: 1000001; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\0000389}}
 .lb-close {
   zoom: 2;
   top: 0px;
   width: 24px;
   height: 24px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\0000395}}
 .main-image-overlay {
   bottom: -10%;
   max-height: 90%; }
   @media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\0000399}}
     .main-image-overlay:not(.austin) {
       bottom: 0%;
       margin: 50% 0; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003103}}
 .blur-up {
   -webkit-filter: blur(1px);
   filter: blur(1px);
   transition: filter 1000ms, -webkit-filter 1000ms; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003107}}
   .blur-up.lazyloaded {
     -webkit-filter: blur(0);
     filter: blur(0); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003111}}
 .lazyload, .lazyloading {
   opacity: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003114}}
 .lazyloaded {
   opacity: 1;
   transition: opacity 300ms; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003118}}
 .body-overlay {
   overflow: hidden; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003121}}
 img {
   image-orientation: from-image; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003124}}
 .white-text {
   font-size: 1em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003127}}
 .grey-text {
   font-size: 4.5em;
   font-family: "Montserrat"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003131}}
 .container .row {
   margin: 0px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003135}}
 .lb-overlay div h3 {
   top: 0%;
   position: fixed;
@@ -127,37 +151,47 @@ img {
   padding-right: 0px;
   box-sizing: content-box;
   width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003145}}
 .lb-overlay div p {
   bottom: 0%;
   position: fixed; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003148}}
 .lb-overlay div h3 span {
   font-size: 3rem;
   line-height: normal;
   font-style: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003152}}
 .lb-overlay div p {
   font-style: normal; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003156}}
 .nav-fillpath a::before, .nav-fillpath .icon-wrap::before {
   will-change: transform; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003159}}
 .nav-fillpath a.next::before, .nav-fillpath a.next .icon-wrap::before {
   will-change: transform; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003162}}
 .card-title {
   font-size: 2rem !important;
   font-weight: 400 !important; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003166}}
 .card {
   box-shadow: 0 0 0 0px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003169}}
 html {
   -webkit-font-smoothing: antialiased; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003172}}
 .cl-effect-14 a {
   margin: 0 10px;
   padding: 10px 20px;
   mix-blend-mode: soft-light;
   box-shadow: 0;
   transition: box-shadow 1s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003178}}
   .cl-effect-14 a::before {
     position: absolute;
     top: 0;
@@ -170,6 +204,7 @@ html {
     -moz-transition: top 0.5s;
     transition: top 0.5s;
     mix-blend-mode: difference; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003190}}
   .cl-effect-14 a::after {
     position: absolute;
     top: 50%;
@@ -181,28 +216,35 @@ html {
     -webkit-transition: height 0.5s;
     -moz-transition: height 0.5s;
     transition: height 0.5s, box-shadow 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003202}}
   .cl-effect-14 a:hover::before {
     top: 100%;
     opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003205}}
   .cl-effect-14 a:hover::after {
     height: 100%;
     box-shadow: 30px 30px 65px black; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003209}}
 nav.cl-effect-14 {
   height: auto; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003212}}
 .white-text.social {
   text-align: -webkit-center;
   font-size: 10em;
   line-height: normal; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003217}}
 a.grey-text.text-lighten-3:after {
   mix-blend-mode: difference; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003220}}
 .cl-effect-14.s12 {
   padding-bottom: 1em;
   padding-top: 1em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003225}}
 h5 {
   -webkit-margin-before: 1.67rem;
   -webkit-margin-after: 1.67rem;
@@ -211,34 +253,44 @@ h5 {
   font-family: "IDK";
   font-size: 10em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003233}}
 .grid-sizer, .grid-item {
   width: calc(50% - 10px); }
   @media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003233}}
     .grid-sizer, .grid-item {
       width: 100%; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003238}}
 .grid-item--width2 {
   width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003241}}
 .grid {
   margin: 0 auto;
   width: 50%; }
   @media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003241}}
     .grid {
       width: 100%; } }
   @media screen and (min-width: 600px) and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003241}}
     .grid {
       width: 80%; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003250}}
 .card-image {
   -webkit-filter: grayscale(1); }
   @media screen and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003250}}
     .card-image {
       -webkit-filter: grayscale(0); } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003256}}
 .card-image:hover {
   -webkit-filter: grayscale(0); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/imac\/Documents\/Photography\/main\.sass}line{font-family:\00003259}}
 .pl {
   -webkit-filter: saturate(1.35) !important; }
 

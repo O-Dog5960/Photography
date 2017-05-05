@@ -8,3 +8,5 @@
 *.sublime-workspace
 
 *.sublime-project
+
+.sass-cache/952b862f9cadb86beb194a421542606ccfb96e42/main.sassc
